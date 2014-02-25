@@ -39,7 +39,7 @@ public class UserDaoTest {
 
     @Test
     public void tableHasCorrectSizeFromSetup() {
-        assertThat(userDao.findNumberOfUsers(), is(11));
+        assertThat(userDao.findNumberOfUsers(), is(12));
     }
 
     @Test

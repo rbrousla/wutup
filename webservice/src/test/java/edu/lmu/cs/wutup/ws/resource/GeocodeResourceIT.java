@@ -8,7 +8,7 @@ import org.junit.Test;
 
 public class GeocodeResourceIT {
     @Test
-    @Ignore
+    //@Ignore
     public void geocodeAddressToLatLong() {
         expect().
             statusCode(200).

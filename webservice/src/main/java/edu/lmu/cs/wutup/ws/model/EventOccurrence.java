@@ -1,6 +1,6 @@
 package edu.lmu.cs.wutup.ws.model;
 
-import java.util.ArrayList;
+import java.util.List;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
@@ -17,8 +17,8 @@ public class EventOccurrence implements Commentable {
     private Venue venue;
     private DateTime start;
     private DateTime end;
-    private ArrayList<User> attendees;
-    private ArrayList<Comment> comments;
+    private List<User> attendees;
+    private List<Comment> comments;
 
     public EventOccurrence() {
         // No-arg constructor required for annotations
@@ -94,7 +94,7 @@ public class EventOccurrence implements Commentable {
     }
 
     @XmlElement(name = "attendees")
-    public ArrayList<User> getAttendees() {
+    public List<User> getAttendees() {
         return this.attendees;
     }
 
@@ -118,7 +118,7 @@ public class EventOccurrence implements Commentable {
     }
 
     @Override
-    public ArrayList<Comment> getComments() {
+    public List<Comment> getComments() {
         return this.comments;
     }
 

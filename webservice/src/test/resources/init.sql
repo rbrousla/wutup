@@ -6,6 +6,7 @@ insert into user (id, firstName, lastName, email, nickname, sessionId) values (5
 insert into user (id, firstName, lastName, email, nickname, sessionId) values (6, 'Eva', 'Sandleborn', 'eva@htomail.com', 'sandy', 'eva');
 insert into user (id, firstName, lastName, email, nickname, sessionId) values (7, 'Olga', 'Shoopa', 'olga@gmail.com', 'gaah', 'olga');
 insert into user (id, firstName, lastName, email, nickname, sessionId) values (8, 'Katrina', 'Sherbina', 'ksherbina@gmail.com', 'Kat', 'katrina');
+insert into user (id, firstName, lastName, email, nickname, facebookId) values (10, 'Richard', 'Brous', 'rbrous@gmail.com', 'Brousy', '589159502');
 insert into user (id, firstName, lastName, email, nickname, sessionId) values (3503, 'John', 'Lennon', 'jlennon@gmail.com', 'John', 'john');
 insert into user (id, firstName, lastname, email, nickname, sessionId) values (155, 'Carlos', 'Agudo', 'cagudo@gmail.com', 'Carlito', 'carlos');
 insert into user (id, firstName, lastname, email, nickname, facebookId) values (3504, 'Sam', 'Verhasselt', 'azureus42@yahoo.com', 'Sam Verhasselt','777892175');

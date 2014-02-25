@@ -27,7 +27,6 @@ public class GeocodeServiceImpl implements GeocodeService {
     @Autowired
     VenueService venueService;
     
-    @Override
     public LatLong resolveAddressToLatLong(String address) throws NoAddressProvidedException, LocationNotFoundByGoogleException, IOException {
 
         if (address == null || address == "") {
@@ -45,7 +44,6 @@ public class GeocodeServiceImpl implements GeocodeService {
         }
     }
 
-    @Override
     public String resolveLatLongToAddress(Double lat, Double lng) throws MalformedCoordinatesException {
 
         if (lat == null || lng == null || lat < -90 || lat > 90 || lng < -180 || lng > 180) {
@@ -62,7 +60,6 @@ public class GeocodeServiceImpl implements GeocodeService {
 
     }
     
-    @Override
     public Venue resolveVenue(String address, Double lat, Double lng) throws ClientProtocolException, JSONException, IOException, LocationNotFoundByGoogleException {
         if (address == null && (lat == null || lng == null)) {
             throw new NoAddressProvidedException();
