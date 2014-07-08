@@ -4,5 +4,5 @@ sponsor, or date range.  The service connects to social networking sites like fa
 for promotion and registration, and exposes a RESTful API so developers can generate any number 
 of clients (web, mobile web, iOS, Android, an so on).
 
-The project was developed by the LMU CMSI 401 Software Engineering Laboratory class during
-the 2012 fall semester.
+The project was originally developed by the LMU CMSI 401 Software Engineering Laboratory class during
+the 2012 fall semester. This fork contains enhancements from continued development by Richard Brous.
